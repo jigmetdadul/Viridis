@@ -13,10 +13,20 @@
 		1D11D6DA29A3DBF300324D0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D11D6D829A3DBF300324D0E /* Main.storyboard */; };
 		1D11D6DC29A3DBF500324D0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D11D6DB29A3DBF500324D0E /* Assets.xcassets */; };
 		1D11D6DF29A3DBF500324D0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D11D6DD29A3DBF500324D0E /* LaunchScreen.storyboard */; };
+		1D47957F29A8935300CEB9C4 /* passUserDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D47957E29A8935300CEB9C4 /* passUserDataModel.swift */; };
+		1D55D46F29A6295E006AF5B9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D55D46E29A6295E006AF5B9 /* MainViewController.swift */; };
+		1D55D47129A637E1006AF5B9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D55D47029A637E1006AF5B9 /* GoogleService-Info.plist */; };
+		1D55D47429A63E5E006AF5B9 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 1D55D47329A63E5E006AF5B9 /* FirebaseAnalytics */; };
+		1D55D47629A63E5E006AF5B9 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1D55D47529A63E5E006AF5B9 /* FirebaseAnalyticsSwift */; };
+		1D55D47929A650D9006AF5B9 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 1D55D47829A650D9006AF5B9 /* FirebaseAuth */; };
+		1D55D47B29A65684006AF5B9 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 1D55D47A29A65684006AF5B9 /* FirebaseDatabase */; };
+		1D55D47D29A65684006AF5B9 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1D55D47C29A65684006AF5B9 /* FirebaseDatabaseSwift */; };
+		1D55D47F29A67FD7006AF5B9 /* userModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D55D47E29A67FD7006AF5B9 /* userModel.swift */; };
+		1D7D58BC29A3F35B00481FCF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7D58BB29A3F35B00481FCF /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1D11D6CF29A3DBF300324D0E /* viridisBeta1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viridisBeta1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D11D6CF29A3DBF300324D0E /* Viridis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Viridis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D11D6D229A3DBF300324D0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D11D6D429A3DBF300324D0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1D11D6D629A3DBF300324D0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +34,11 @@
 		1D11D6DB29A3DBF500324D0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D11D6DE29A3DBF500324D0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D11D6E029A3DBF500324D0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D47957E29A8935300CEB9C4 /* passUserDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passUserDataModel.swift; sourceTree = "<group>"; };
+		1D55D46E29A6295E006AF5B9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1D55D47029A637E1006AF5B9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1D55D47E29A67FD7006AF5B9 /* userModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userModel.swift; sourceTree = "<group>"; };
+		1D7D58BB29A3F35B00481FCF /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +46,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D55D47D29A65684006AF5B9 /* FirebaseDatabaseSwift in Frameworks */,
+				1D55D47629A63E5E006AF5B9 /* FirebaseAnalyticsSwift in Frameworks */,
+				1D55D47929A650D9006AF5B9 /* FirebaseAuth in Frameworks */,
+				1D55D47B29A65684006AF5B9 /* FirebaseDatabase in Frameworks */,
+				1D55D47429A63E5E006AF5B9 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,13 +62,14 @@
 			children = (
 				1D11D6D129A3DBF300324D0E /* viridisBeta1 */,
 				1D11D6D029A3DBF300324D0E /* Products */,
+				1D55D47729A650D9006AF5B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		1D11D6D029A3DBF300324D0E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D11D6CF29A3DBF300324D0E /* viridisBeta1.app */,
+				1D11D6CF29A3DBF300324D0E /* Viridis.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,22 +78,58 @@
 			isa = PBXGroup;
 			children = (
 				1D11D6D229A3DBF300324D0E /* AppDelegate.swift */,
+				1D11D6E829A3DC2000324D0E /* Controller */,
+				1D11D6E729A3DC1100324D0E /* View */,
+				1D11D6E629A3DC0600324D0E /* Model */,
 				1D11D6D429A3DBF300324D0E /* SceneDelegate.swift */,
-				1D11D6D629A3DBF300324D0E /* ViewController.swift */,
-				1D11D6D829A3DBF300324D0E /* Main.storyboard */,
 				1D11D6DB29A3DBF500324D0E /* Assets.xcassets */,
+				1D55D47029A637E1006AF5B9 /* GoogleService-Info.plist */,
 				1D11D6DD29A3DBF500324D0E /* LaunchScreen.storyboard */,
 				1D11D6E029A3DBF500324D0E /* Info.plist */,
 			);
 			path = viridisBeta1;
 			sourceTree = "<group>";
 		};
+		1D11D6E629A3DC0600324D0E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1D55D47E29A67FD7006AF5B9 /* userModel.swift */,
+				1D47957E29A8935300CEB9C4 /* passUserDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1D11D6E729A3DC1100324D0E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1D11D6D829A3DBF300324D0E /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1D11D6E829A3DC2000324D0E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1D11D6D629A3DBF300324D0E /* ViewController.swift */,
+				1D7D58BB29A3F35B00481FCF /* SignUpViewController.swift */,
+				1D55D46E29A6295E006AF5B9 /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1D55D47729A650D9006AF5B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D11D6CE29A3DBF300324D0E /* viridisBeta1 */ = {
+		1D11D6CE29A3DBF300324D0E /* Viridis */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D11D6E329A3DBF500324D0E /* Build configuration list for PBXNativeTarget "viridisBeta1" */;
+			buildConfigurationList = 1D11D6E329A3DBF500324D0E /* Build configuration list for PBXNativeTarget "Viridis" */;
 			buildPhases = (
 				1D11D6CB29A3DBF300324D0E /* Sources */,
 				1D11D6CC29A3DBF300324D0E /* Frameworks */,
@@ -82,9 +139,16 @@
 			);
 			dependencies = (
 			);
-			name = viridisBeta1;
+			name = Viridis;
+			packageProductDependencies = (
+				1D55D47329A63E5E006AF5B9 /* FirebaseAnalytics */,
+				1D55D47529A63E5E006AF5B9 /* FirebaseAnalyticsSwift */,
+				1D55D47829A650D9006AF5B9 /* FirebaseAuth */,
+				1D55D47A29A65684006AF5B9 /* FirebaseDatabase */,
+				1D55D47C29A65684006AF5B9 /* FirebaseDatabaseSwift */,
+			);
 			productName = viridisBeta1;
-			productReference = 1D11D6CF29A3DBF300324D0E /* viridisBeta1.app */;
+			productReference = 1D11D6CF29A3DBF300324D0E /* Viridis.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +166,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1D11D6CA29A3DBF300324D0E /* Build configuration list for PBXProject "viridisBeta1" */;
+			buildConfigurationList = 1D11D6CA29A3DBF300324D0E /* Build configuration list for PBXProject "Viridis" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,11 +175,14 @@
 				Base,
 			);
 			mainGroup = 1D11D6C629A3DBF300324D0E;
+			packageReferences = (
+				1D55D47229A63E5E006AF5B9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 1D11D6D029A3DBF300324D0E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D11D6CE29A3DBF300324D0E /* viridisBeta1 */,
+				1D11D6CE29A3DBF300324D0E /* Viridis */,
 			);
 		};
 /* End PBXProject section */
@@ -126,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D11D6DF29A3DBF500324D0E /* LaunchScreen.storyboard in Resources */,
+				1D55D47129A637E1006AF5B9 /* GoogleService-Info.plist in Resources */,
 				1D11D6DC29A3DBF500324D0E /* Assets.xcassets in Resources */,
 				1D11D6DA29A3DBF300324D0E /* Main.storyboard in Resources */,
 			);
@@ -138,9 +206,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D47957F29A8935300CEB9C4 /* passUserDataModel.swift in Sources */,
 				1D11D6D729A3DBF300324D0E /* ViewController.swift in Sources */,
 				1D11D6D329A3DBF300324D0E /* AppDelegate.swift in Sources */,
+				1D55D47F29A67FD7006AF5B9 /* userModel.swift in Sources */,
+				1D7D58BC29A3F35B00481FCF /* SignUpViewController.swift in Sources */,
 				1D11D6D529A3DBF300324D0E /* SceneDelegate.swift in Sources */,
+				1D55D46F29A6295E006AF5B9 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +373,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jigmet.viridisBeta1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Viridis;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -329,7 +401,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jigmet.viridisBeta1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Viridis;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -339,7 +411,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D11D6CA29A3DBF300324D0E /* Build configuration list for PBXProject "viridisBeta1" */ = {
+		1D11D6CA29A3DBF300324D0E /* Build configuration list for PBXProject "Viridis" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D11D6E129A3DBF500324D0E /* Debug */,
@@ -348,7 +420,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1D11D6E329A3DBF500324D0E /* Build configuration list for PBXNativeTarget "viridisBeta1" */ = {
+		1D11D6E329A3DBF500324D0E /* Build configuration list for PBXNativeTarget "Viridis" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D11D6E429A3DBF500324D0E /* Debug */,
@@ -358,6 +430,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1D55D47229A63E5E006AF5B9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1D55D47329A63E5E006AF5B9 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1D55D47229A63E5E006AF5B9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		1D55D47529A63E5E006AF5B9 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1D55D47229A63E5E006AF5B9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		1D55D47829A650D9006AF5B9 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1D55D47229A63E5E006AF5B9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		1D55D47A29A65684006AF5B9 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1D55D47229A63E5E006AF5B9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		1D55D47C29A65684006AF5B9 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1D55D47229A63E5E006AF5B9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1D11D6C729A3DBF300324D0E /* Project object */;
 }
