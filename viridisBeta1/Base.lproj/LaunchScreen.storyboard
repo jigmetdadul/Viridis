@@ -16,13 +16,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="g34508" translatesAutoresizingMaskIntoConstraints="NO" id="EHf-oM-biy">
-                                <rect key="frame" x="134" y="362" width="124" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchImage1" translatesAutoresizingMaskIntoConstraints="NO" id="aF9-HD-Um6">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Viridis" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qFh-Vs-9RN">
+                                <rect key="frame" x="105.33333333333333" y="391.33333333333331" width="182.66666666666669" height="69.333333333333314"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="59"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" systemColor="systemYellowColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qFh-Vs-9RN" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="GMm-n6-Rrn"/>
+                            <constraint firstAttribute="bottom" secondItem="aF9-HD-Um6" secondAttribute="bottom" id="L8I-ps-7AF"/>
+                            <constraint firstItem="aF9-HD-Um6" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="QAp-l5-9AR"/>
+                            <constraint firstItem="qFh-Vs-9RN" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="XeM-Yw-YaO"/>
+                            <constraint firstItem="aF9-HD-Um6" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="aZr-Vu-M3N"/>
+                            <constraint firstAttribute="trailing" secondItem="aF9-HD-Um6" secondAttribute="trailing" id="cw2-rV-LEz"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -31,9 +45,12 @@
         </scene>
     </scenes>
     <resources>
-        <image name="g34508" width="1024" height="1024"/>
+        <image name="LaunchImage1" width="2400" height="1590"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
